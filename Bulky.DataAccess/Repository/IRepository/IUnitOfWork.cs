@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bulky.DataAcess.Repositoryy.IRepository
+namespace Bulky.DataAccess.Repository.IRepository
 {
-    public interface IUnityOfWork
+    public interface IUnitOfWork
     {
         ICategoryRepository Category { get; }
         void Save();
